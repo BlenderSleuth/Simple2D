@@ -1,0 +1,58 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Objects/Box.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Player/Player.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Assets/Tiles/boxExplosive.png" type="Texture" id=3]
+[ext_resource path="res://Assets/Tiles/brickWall.png" type="Texture" id=4]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 1165.51, 548.137 )
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource( 2 )]
+position = Vector2( 140, 140 )
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+current = true
+smoothing_enabled = true
+
+[node name="Box1" parent="." instance=ExtResource( 1 )]
+position = Vector2( 35, 315 )
+
+[node name="Box2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 105, 315 )
+
+[node name="Box3" parent="." instance=ExtResource( 1 )]
+position = Vector2( 175, 315 )
+
+[node name="Box4" parent="." instance=ExtResource( 1 )]
+position = Vector2( 245, 315 )
+
+[node name="Box7" parent="." instance=ExtResource( 1 )]
+position = Vector2( 350, 140 )
+BoxTexture = ExtResource( 3 )
+
+[node name="Box8" parent="." instance=ExtResource( 1 )]
+position = Vector2( 560, 455 )
+BoxTexture = ExtResource( 4 )
+
+[node name="Box5" parent="." instance=ExtResource( 1 )]
+position = Vector2( 315, 385 )
+
+[node name="Box6" parent="." instance=ExtResource( 1 )]
+position = Vector2( 385, 455 )
+
+[node name="DeathBox" type="Area2D" parent="."]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DeathBox"]
+visible = false
+position = Vector2( 980, 245 )
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_lock_": true
+}
+[connection signal="body_exited" from="DeathBox" to="Player" method="_on_Area2D_body_exited"]
