@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/sfx_sound_bling.wav-b7cf4d2e1ef9a64069e3322f369fcc6a.sample"
+
+[deps]
+
+source_file="res://Assets/Sound/General Sounds/Weird Sounds/sfx_sound_bling.wav"
+dest_files=[ "res://.import/sfx_sound_bling.wav-b7cf4d2e1ef9a64069e3322f369fcc6a.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

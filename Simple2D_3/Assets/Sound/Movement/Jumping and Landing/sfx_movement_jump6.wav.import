@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/sfx_movement_jump6.wav-1bf994c6ff837a3d0962fbe372bc85ba.sample"
+
+[deps]
+
+source_file="res://Assets/Sound/Movement/Jumping and Landing/sfx_movement_jump6.wav"
+dest_files=[ "res://.import/sfx_movement_jump6.wav-1bf994c6ff837a3d0962fbe372bc85ba.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/sfx_sound_poweron.wav-b1153e516ad0bcca41fa61341021a0d7.sample"
+
+[deps]
+
+source_file="res://Assets/Sound/General Sounds/Weird Sounds/sfx_sound_poweron.wav"
+dest_files=[ "res://.import/sfx_sound_poweron.wav-b1153e516ad0bcca41fa61341021a0d7.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
