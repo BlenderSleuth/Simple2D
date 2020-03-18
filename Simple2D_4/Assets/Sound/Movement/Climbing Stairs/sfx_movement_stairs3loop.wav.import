@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/sfx_movement_stairs3loop.wav-02fdb8987a3cd4a5069c17c625c07eab.sample"
+
+[deps]
+
+source_file="res://Assets/Sound/Movement/Climbing Stairs/sfx_movement_stairs3loop.wav"
+dest_files=[ "res://.import/sfx_movement_stairs3loop.wav-02fdb8987a3cd4a5069c17c625c07eab.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

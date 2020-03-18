@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/sfx_movement_footstepsloop4_fast.wav-874e074836ff2b84d2c4227014cd6134.sample"
+
+[deps]
+
+source_file="res://Assets/Sound/Movement/Footsteps/sfx_movement_footstepsloop4_fast.wav"
+dest_files=[ "res://.import/sfx_movement_footstepsloop4_fast.wav-874e074836ff2b84d2c4227014cd6134.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

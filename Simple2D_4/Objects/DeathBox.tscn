@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 1165.51, 777.552 )
+
+[node name="DeathBox" type="Area2D" groups=[
+"deathbox",
+]]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 980, 245 )
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_lock_": true
+}
